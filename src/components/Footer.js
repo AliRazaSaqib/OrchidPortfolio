@@ -4,7 +4,10 @@ import "../assets/css/style.css";
 export default function Footer() {
   return (
     <div>
-      <footer class="ftco-footer ftco-section img" style={{ padding: "0" }}>
+      <footer
+        class="ftco-footer ftco-section img"
+        style={{ padding: "0", paddingTop: "20px" }}
+      >
         <div class="container">
           <div class="row mb-5">
             <div class="col-md-3">
@@ -38,9 +41,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <form action="https://orchids0nacid.artstation.com">
+        {/* <form action="https://orchids0nacid.artstation.com">
           <input type="submit" value="Go to Projects" />
-        </form>
+        </form> */}
       </footer>
     </div>
   );

@@ -266,7 +266,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="ftco-section bg-dark">
+      {/* <section className="ftco-section bg-dark">
         <div className="container">
           <div className="row">
             <div className="col-md-3">
@@ -327,9 +327,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="ftco-section ftco-no-pt ftco-no-pb">
+      {/* <section className="ftco-section ftco-no-pt ftco-no-pb">
         <div className="container-fluid px-4">
           <div className="row d-flex">
             <div className="col-md-6 col-lg-3 d-flex align-items-center ftco-animate">
@@ -802,9 +802,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="ftco-section">
+      {/* <section className="ftco-section">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-8 mb-5 heading-section text-center ftco-animate">
@@ -900,11 +900,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section
         className="ftco-section testimony-section img"
-        style={{ backgroundImage: `url(${bg_2})` }}
+        style={{ backgroundImage: `url(${bg_2})`, marginTop: "100px" }}
       >
         <div className="overlay"></div>
         <div className="container">
@@ -1008,7 +1008,7 @@ export default function Home() {
       <section className="ftco-appointment ftco-section">
         <div className="overlay"></div>
         <div className="container">
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-md-8 mb-5 heading-section text-center ftco-animate">
               <span className="subheading">Stylistic</span>
               <h2 className="mb-4">Contact Us</h2>
@@ -1017,7 +1017,7 @@ export default function Home() {
                 Vokalia{" "}
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-md-4">
               <div className="row"></div>
@@ -1040,7 +1040,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-8 appointment ftco-animate">
+          {/* <div className="col-md-8 appointment ftco-animate">
             <form action="#" className="appointment-form">
               <div className="row">
                 <div className="col-md-6">
@@ -1110,10 +1110,10 @@ export default function Home() {
                 </div>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
       </section>
-      <section className="ftco-section ftco-no-pt ftco-no-pb">
+      {/* <section className="ftco-section ftco-no-pt ftco-no-pb">
         <div className="container-fluid px-0">
           <div className="row no-gutters d-md-flex align-items-center">
             <div className="col-md-12 d-flex align-self-stretch">
@@ -1121,9 +1121,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="ftco-quote ftco-section ftco-animate">
+      {/* <section className="ftco-quote ftco-section ftco-animate">
         <div className="container">
           <div className="row d-flex">
             <div
@@ -1146,7 +1146,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

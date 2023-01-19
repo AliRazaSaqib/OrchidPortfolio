@@ -1,4 +1,4 @@
-ul {
+.dropdown_container ul {
   list-style-type: none;
   background-color: #f34573;
   max-width: 200px;
@@ -11,17 +11,17 @@ ul {
   padding: 12px 20px;
 }
 
-ul li {
+.dropdown_container ul li {
   text-decoration: none;
   color: white;
   cursor: pointer;
 }
 
-ul li:hover {
+.dropdown_container ul li:hover {
   color: black;
   font-weight: bold;
 }
 
-ul li:not(:first-child) {
+.dropdown_container ul li:not(:first-child) {
   margin-top: 8px;
 }

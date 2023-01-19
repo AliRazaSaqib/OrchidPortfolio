@@ -11429,12 +11429,12 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
   color: #000;
 }
 .ftco-about-section .img {
-  height: 600px;
+  height: 350px;
 }
 
 .ftco-section-2 {
   position: relative;
-  height: 800px;
+  height: 350px;
 }
 .ftco-section-2 .section-2-blocks-wrapper .button {
   display: block;
